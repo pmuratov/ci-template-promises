@@ -1,4 +1,4 @@
-import GameSavingLoader from "../GameSavingLoader";
+import GameSavingLoader from "./GameSavingLoader";
 
 const gameSaving = { data: undefined, error: undefined };
 
