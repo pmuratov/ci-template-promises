@@ -1,8 +1,8 @@
 import GameSavingLoader from "../GameSavingLoader";
 
-test("Testing load", (done) => {
+test("Load testing", (done) => {
   GameSavingLoader.load().then((response) => {
-    const result = JSON.parse(response);
+    let result = JSON.parse(response);
 
     expect(result).toHaveProperty("id");
     expect(result).toHaveProperty("created");
