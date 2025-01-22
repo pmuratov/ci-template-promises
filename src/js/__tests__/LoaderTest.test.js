@@ -1,4 +1,4 @@
-import GameSavingLoader from "./GameSavingLoader";
+import GameSavingLoader from "../GameSavingLoader";
 
 test("Testing load", (done) => {
   GameSavingLoader.load().then((response) => {
